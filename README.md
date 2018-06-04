@@ -1,2 +1,2 @@
 # skypost
-Test restful apis
+Test restful apis.
