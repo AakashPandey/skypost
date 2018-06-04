@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #f7f7f7;
+}
+
+header {
+    background: #fff;
+    font-family: 'PT Sans';
+    /* font-family: 'Quicksand'; */
+    font-size: 200%;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.555);
+    padding: 10px;
+}
+
+#main {
+    min-height: 500px;
+    overflow-y: auto;
+    padding: 5px;
+    max-width: 550px;
+    margin: 0 auto;
+}
+
+#info {
+    text-align: left;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+#url_lab {
+    display: block;
+    font-size: 90%;
+    font-family: 'Quicksand';
+    margin-right: 57%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#url {
+    margin-top: 20px;
+    border: none;
+    padding: 15px;
+    width: 87%;
+    margin-bottom: 15px;
+    border-radius: 30px;
+    background: #efefef;
+    transition: background 0.2s;
+    font-family: 'Quicksand';
+}
+
+#url:focus {
+    background: #fff;
+    border: 1px solid #FFB300;
+    outline: none;
+}
+
+.param {
+    margin-bottom: 20px;
+}
+
+.left_in, .right_in {
+    border: none;
+    padding: 10px;
+    font-size: 95%;
+    border-radius: 30px;
+    background: #efefef;
+    transition: background 0.2s;
+    font-family: 'Quicksand';
+}
+
+.left_in:focus, .right_in:focus, select:focus {
+    background: #fff;
+    border: 1px solid #FFB300;
+    outline: none;
+}
+
+.left_in{
+    margin-left: 5px;
+    width: 25%;
+}
+.right_in {
+    /* margin-left: 3px; */
+    width: 48%;
+}
+
+.nav_button {
+    margin-top: 25px;
+    width: 230px;
+    background: #FFB300;
+    border: none;
+    color: #fff;
+    padding: 12px;
+    font-size: 110%;
+    font-family: 'Quicksand';
+    border-radius: 30px;
+    transition: opacity 0.2s;
+}
+
+.nav_button:focus, .ctrl:focus {
+    outline: none;
+    opacity: 0.8;
+}
+
+
+#actOne {
+    text-align: center;
+}
+
+#input {
+    text-align: center;
+
+}
+
+.ctrl {
+    float: right;
+    margin-top: 3px;
+    margin-right: 10px;
+    height: 32px;
+    width: 32px;
+    font-size: 150%;
+    font-family: 'PT Sans';
+    border: none;
+    background: #FFB300;
+    color: #fff;
+    border-radius: 50%;
+}
+
+select {
+    display: block;
+    margin: 0 auto;
+    border: none;
+    margin-top: 15px;
+    border-radius: 30px;
+    padding: 5px; 
+    width: 90px;
+}
